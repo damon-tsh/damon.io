@@ -123,7 +123,7 @@ h1.title {
 	position: fixed;
 	top: 10px;
 	right: 10px;
-	width:150px;
+	width: 150px;
 	height: 220px;
     z-index: 1001;
 	}
@@ -142,6 +142,19 @@ h1.title a {
 
 h1.title a:hover {
     filter:  saturate(1700%) hue-rotate(255deg);
+}
+
+@media only screen and (max-width: 768px) {
+h1.title {
+	right: 5px;
+	width: 100px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+h1.title a {
+    height: 20vh;
+    }
 }
 
 
@@ -163,7 +176,7 @@ header #menu .menu li{
 
 header #menu .menu li a{
         color: #fff;
-        font-size: 2.5vmin;
+        font-size: 3vmin;
         letter-spacing: 0.05em;
         font-weight: 800;
         position: relative;
@@ -198,7 +211,7 @@ header #menu .index li{
     
 header #menu .index li a{
         color: #000;
-        font-size: 2.5vmin;
+        font-size: 3vmin;
         letter-spacing: 0.05em;
         font-weight: 800;
         position: relative;
@@ -297,9 +310,9 @@ footer p{
     hyphens: auto;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 768px) {
     .container .info .contact {
-        width: 60%;
+        width: 80%;
 }
 }
 
@@ -317,11 +330,6 @@ footer p{
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 1080px) {
-    .container .info .contact {
-        width: 60%;
-}
-}
 
 .container .info .about {
     display: block;
@@ -332,6 +340,12 @@ footer p{
     margin-right: 80px;
 }
 
+@media only screen and (max-width: 768px) {
+    .container .info .about {
+        margin-right: 5vw;
+        }
+    }
+
 .container .info .works {
     display: block;
     margin-bottom: 40pt;
@@ -341,6 +355,13 @@ footer p{
     margin-right: 80px;
     height: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+    .container .info .works {
+        margin-right: 0;
+        }
+    }
+    
 
 .container .info .works figure {
     display: inline-block;
