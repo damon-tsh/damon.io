@@ -139,6 +139,11 @@ h1.title a {
     text-decoration: none;
     }
 
+h1.title a :hover,
+h1.title a :focus {
+    fill: rgb(12 51 136);
+}
+
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     h1.title{
     position: fixed;
