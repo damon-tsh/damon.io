@@ -133,7 +133,7 @@ h1.title a {
     min-height: 80%;
     max-width: 80%;
     max-height: 80%;
-	background-image: url(damon.io/img/title.svg);
+	background-image: url(https://damon-tsh.github.io/damon.io/img/title.svg);
 	background-repeat: no-repeat;
 	outline: none;
     text-decoration: none;
@@ -149,7 +149,7 @@ h1.title a {
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     h1.title a{
-    background-image: url(damon.io/img/title-h.svg);
+    background-image: url(https://damon-tsh.github.io/damon.io/img/title-h.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
         }
