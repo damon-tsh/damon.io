@@ -250,6 +250,17 @@ header #menu .index li a{
     margin-right: auto;
 }
 
+@media only screen and (max-width: 768px) {
+    .container .mainvisual video  {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    }
+}
+
+
 footer {
     display: block;
     position: absolute;
