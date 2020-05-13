@@ -144,21 +144,6 @@ h1.title a:hover {
     filter:  saturate(1700%) hue-rotate(255deg);
 }
 
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-    h1.title{
-    position: fixed;
-    top: 0px;
-    right: 20px;
-        }
-    }
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-    h1.title a{
-    background-image: url(https://damon-tsh.github.io/damon.io/img/title-h.svg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-        }
-    }
 
 header #menu .menu{
         position: fixed;
